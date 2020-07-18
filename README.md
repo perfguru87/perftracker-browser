@@ -1,6 +1,6 @@
 # perftracker-cp-crawler
 
-perftracker-cp-crawler - a set of libraries and scripts to crawl Control Panels (like Wordpress), integrated with client library for the [perftracker](https://github.com/perfguru87/perftracker)
+perftracker-cp-crawler - a set of libraries and scripts to crawl web UI Control Panels (like Wordpress), integrated with client library for the [perftracker](https://github.com/perfguru87/perftracker)
 
 Features:
 - selenium-based framework (on top of Chrome and Firefox browsers)
