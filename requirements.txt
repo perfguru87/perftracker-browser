@@ -1,0 +1,9 @@
+perftrackerlib >= 0.1.0
+requests
+selenium
+pyvirtualdisplay
+psutil
+pycurl
+six
+Pillow
+python-dateutil
