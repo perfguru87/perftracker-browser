@@ -30,9 +30,9 @@ pip3.6 install --upgrade perftracker-cp-crawler=%{_perftracker_lib_ver}
 echo -e "\n====== The perftracker-lib installation done ======================\n"
 
 %postun
-echo -e "\n====== Uninstalling the perftracker-cp-crawler v%{_perftracker_cp_crawler_ver} =======\n"
-echo "pip3.6 uninstall -y perftracker-cp-crawler=%{_perftracker_lib_ver}"
-pip3.6 uninstall -y perftracker-cp-crawler=%{_perftracker_lib_ver}
+echo -e "\n====== Uninstalling the perftracker-cp-crawler =======\n"
+echo "pip3.6 uninstall -y perftracker-cp-crawler"
+pip3.6 uninstall -y perftracker-cp-crawler
 echo -e "\n====== The perftracker-cp-crawler uninstallation done =========\n"
 
 %files
