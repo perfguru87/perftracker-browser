@@ -1,5 +1,5 @@
 %define python_sitelib %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")
-%define _perftracker_lib_ver 0.1.4
+%define _perftracker_lib_ver 0.1.5
 %define _perftracker_cp_crawler_ver 0.1.4
 
 Name:		python36-perftracker-cp-crawler
