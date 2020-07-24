@@ -5,7 +5,7 @@ from __future__ import print_function
 import sys
 from distutils.version import LooseVersion
 
-__version__ = "0.1.5"
+__version__ = "0.1.6"
 __name__ = "perftracker-cp-crawler"
 
 def perftracker_cp_crawler_require_version(ver_required):
